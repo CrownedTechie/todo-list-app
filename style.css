@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 20rem;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#list-box {
+    padding: 0 2rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.list-item > button {
+    border: none;
+    background: none;
+}
+
+.item-box {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.add-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-input {
+    padding: .7rem;
+    width: 220px;
+    font-style: italic;
+}
+
+.material-symbols-outlined {
+    color: blue;
+    cursor: pointer;
+   
+}
+
+.add-btn {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.done {
+    text-decoration: line-through;
+}

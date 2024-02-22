@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>To-do List</h1><br>
+        </header><hr><br>
+
+
+        <ul id="list-box">
+            <li class="list-item">
+                <div class="item-box" for="check">
+                    <input type="checkbox" name="check" class="list-check">
+                    <input type="text" name="check" id="" value="Buy cococonut">
+                </div>
+
+                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
+            </li>
+    
+            <li class="list-item">
+                <div class="item-box" for="check">
+                    <input type="checkbox" name="check" class="list-check">
+                    <input type="text" name="check" id=""  value="Go to school">
+                </div>
+
+
+                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
+            </li>
+    
+            <li class="list-item">
+                <div class="item-box" for="check">
+                    <input type="checkbox" name="check" class="list-check">
+                    <input type="text" name="check" id=""  value="Travel to Bolivia">
+                </div>
+
+                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
+            </li>
+    
+            <li class="list-item">
+                <div class="item-box" for="check">
+                    <input type="checkbox" name="check" class="list-check">
+                    <input type="text" name="check" id="" value="Make money">
+                </div>
+
+                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
+            </li>
+        </ul><br><br>
+
+        <div class="add-box">
+            <input type="text" name="" id="text-input" placeholder="Add list ..." class="text-change">
+            <span class="material-symbols-outlined add-btn">add_box</span>
+        </div>
+       
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
