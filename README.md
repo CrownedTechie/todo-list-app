@@ -23,8 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![crownedtechie github io_todo-list-app_](https://github.com/CrownedTechie/todo-list-app/assets/149014607/e423b698-82d5-46ba-8f38-6c9d70671df2)
-
+![todo-app-list1](https://github.com/CrownedTechie/todo-list-app/assets/149014607/d582bf25-fbac-4ec8-9626-ebfa5af7dd66)
 
 ### Links
 
