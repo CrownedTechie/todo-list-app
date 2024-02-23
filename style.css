@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(rgb(250, 112, 188), rgb(222, 74, 132));
 }
 
 main {
@@ -18,24 +19,53 @@ main {
     flex-direction: column;
     border: 1px solid black;
     width: 20rem;
-    text-align: center;
     padding: 1.5rem 0;
+    background: rgb(252, 247, 247);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: space-between;
 }
 
 header h1 {
     font-size: 1.5rem;
     font-style: italic;
+    font-weight: 600;
+}
+
+header p {
+    border-radius: 1rem;
+    padding: .2rem;
+    width: 6rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+header p:hover {
+    background-color: rgb(234, 89, 154);
+    color: white;
+}
+
+.divider {
+    margin-bottom: 1rem;
 }
 
 #list-box {
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .list-item {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     gap: 2rem;
     margin-bottom: 1rem;
+    
 }
 
 .list-item > button {
@@ -45,8 +75,11 @@ header h1 {
 
 .item-box {
     display: flex;
-    align-items: center;
     gap: .8rem;
+}
+
+input[type="checkbox"]:checked {
+    background: blue;
 }
 
 input[type="text"] {
@@ -54,32 +87,41 @@ input[type="text"] {
     outline: none;
     font-family: inherit;
     font-size: 1rem;
+    background: transparent;
 }
 
 .add-box {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#add-icon {
+    position: absolute;
+    margin-bottom: -6rem;
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 #text-input {
     padding: .7rem;
-    width: 220px;
     font-style: italic;
+    margin-bottom: 1rem;
 }
 
 .material-symbols-outlined {
-    color: blue;
+    color: rgb(215, 67, 121);
     cursor: pointer;
-   
-}
-
-.add-btn {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 200,
-  'opsz' 48
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 200,
+    'opsz' 10
 }
 
 .done {

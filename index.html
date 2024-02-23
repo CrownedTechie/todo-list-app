@@ -14,52 +14,15 @@
 
     <main>
         <header>
-            <h1>To-do List</h1><br>
-        </header><hr><br>
+            <h1>To-do List</h1>
+            <p class="clear-all">Clear List</p>
+        </header><br><hr class="divider">
 
-
-        <ul id="list-box">
-            <li class="list-item">
-                <div class="item-box" for="check">
-                    <input type="checkbox" name="check" class="list-check">
-                    <input type="text" name="check" id="" value="Buy cococonut">
-                </div>
-
-                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
-            </li>
-    
-            <li class="list-item">
-                <div class="item-box" for="check">
-                    <input type="checkbox" name="check" class="list-check">
-                    <input type="text" name="check" id=""  value="Go to school">
-                </div>
-
-
-                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
-            </li>
-    
-            <li class="list-item">
-                <div class="item-box" for="check">
-                    <input type="checkbox" name="check" class="list-check">
-                    <input type="text" name="check" id=""  value="Travel to Bolivia">
-                </div>
-
-                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
-            </li>
-    
-            <li class="list-item">
-                <div class="item-box" for="check">
-                    <input type="checkbox" name="check" class="list-check">
-                    <input type="text" name="check" id="" value="Make money">
-                </div>
-
-                <button class="delete-btn"><span class="material-symbols-outlined remove-icon">delete</span></button>
-            </li>
-        </ul><br><br>
+        <ul id="list-box"></ul><br><br>
 
         <div class="add-box">
-            <input type="text" name="" id="text-input" placeholder="Add list ..." class="text-change">
-            <span class="material-symbols-outlined add-btn">add_box</span>
+            <input type="text" name="" id="text-input" placeholder="Add list ...">
+            <img src="img/plus.png" alt="" id="add-icon" class="add-btn">
         </div>
        
     </main>
